@@ -1,0 +1,22 @@
+ [ {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "Udacity"
+  },
+  
+  {
+    "ParameterKey": "AMI",
+    "ParameterValue": "ami-08fd8ae3806f09a08"
+  },
+
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "Bastion"
+  }
+
+    
+  
+]
