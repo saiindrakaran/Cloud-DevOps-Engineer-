@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Upload to AWS'){
             steps {
-                withAWS(region: 'eu-north-1b', credentials: 'aws-static'){
+                withAWS(region: 'eu-north-1', credentials: 'aws-static'){
                     s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file: 'index.html', bucket: 'jenkins-hosting')
                 }
             }
